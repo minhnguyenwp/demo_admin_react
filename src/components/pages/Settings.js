@@ -46,10 +46,6 @@ const Settings = props => (
                 <DemoCards />
             </div>
             
-            <div className="gcol mb-30">
-                <DemoGrids />
-            </div>
-            
         </section>
     </div>
     

@@ -35,6 +35,13 @@
         }
     }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */ 
+    .call-sidebar-menu {
+        display: none !important;
+    }
+}
 /* Tablet Screen - 979px */
 @media (max-width: 979px) {
     .m__site {

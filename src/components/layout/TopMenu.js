@@ -3,21 +3,19 @@ import {Icon,
         Label, 
         Menu,  
        } from 'semantic-ui-react';
+// REDUX
 import {actionCreators as sideAction} from "../../store/SideMenu";
-//import {actionCreators as searchAction} from "../../store/SearchStore";
 import {bindActionCreators} from "redux";
 import { connect } from 'react-redux';
+// COMPS
 import { IconBell } from '../common/icons';
 import  Avatar  from '../header/Avatar';
 
+
+
 class TopMenu extends Component {
-  state = {};
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
-
-  // doSearch(event) {
-  //     this.props.actions.search(event.target.value);  
-  // }
 
   render() {
     return (
@@ -33,17 +31,6 @@ class TopMenu extends Component {
             <p className="logo__txt">My<b>Admin</b></p>
           </div>
         </Menu.Item>
-
-        
-
-        {/* <Menu.Item className="no-border drop-left-padding">
-          <Input
-            className="icon"
-            icon="search"
-            placeholder="Search..."
-            onChange={this.doSearch.bind(this)}
-          />
-        </Menu.Item> */}
 
         <Menu.Menu position="right">
           <Menu.Item className="no-border" position="right">

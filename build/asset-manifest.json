@@ -1,17 +1,17 @@
 {
-  "main.css": "/minhnguyenwp/static/css/main.88586917.chunk.css",
-  "main.js": "/minhnguyenwp/static/js/main.f6600d68.chunk.js",
-  "main.js.map": "/minhnguyenwp/static/js/main.f6600d68.chunk.js.map",
+  "main.css": "/minhnguyenwp/static/css/main.d303f98a.chunk.css",
+  "main.js": "/minhnguyenwp/static/js/main.8c9c33bb.chunk.js",
+  "main.js.map": "/minhnguyenwp/static/js/main.8c9c33bb.chunk.js.map",
   "runtime~main.js": "/minhnguyenwp/static/js/runtime~main.6951fbeb.js",
   "runtime~main.js.map": "/minhnguyenwp/static/js/runtime~main.6951fbeb.js.map",
   "static/css/2.d261e466.chunk.css": "/minhnguyenwp/static/css/2.d261e466.chunk.css",
   "static/js/2.c390c4a8.chunk.js": "/minhnguyenwp/static/js/2.c390c4a8.chunk.js",
   "static/js/2.c390c4a8.chunk.js.map": "/minhnguyenwp/static/js/2.c390c4a8.chunk.js.map",
   "index.html": "/minhnguyenwp/index.html",
-  "precache-manifest.714606b3659d626bf112092025df00d1.js": "/minhnguyenwp/precache-manifest.714606b3659d626bf112092025df00d1.js",
+  "precache-manifest.10cc19bf9d5b6666052ab01e30b05aa5.js": "/minhnguyenwp/precache-manifest.10cc19bf9d5b6666052ab01e30b05aa5.js",
   "service-worker.js": "/minhnguyenwp/service-worker.js",
   "static/css/2.d261e466.chunk.css.map": "/minhnguyenwp/static/css/2.d261e466.chunk.css.map",
-  "static/css/main.88586917.chunk.css.map": "/minhnguyenwp/static/css/main.88586917.chunk.css.map",
+  "static/css/main.d303f98a.chunk.css.map": "/minhnguyenwp/static/css/main.d303f98a.chunk.css.map",
   "static/media/semantic.min.css": "/minhnguyenwp/static/media/outline-icons.ef60a4f6.woff",
   "static/media/bootstrap.css": "/minhnguyenwp/static/media/glyphicons-halflings-regular.fa277232.woff"
 }

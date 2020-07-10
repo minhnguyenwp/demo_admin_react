@@ -13,9 +13,6 @@ import { actionCreators as sideAction} from "../../store/SideMenu";
 
 
 class SideMenu extends Component {
-    // state = {
-    //     activeItem: 'dashboard',
-    // };
 
     constructor(props) {
         super(props);
@@ -29,8 +26,6 @@ class SideMenu extends Component {
         };
     }
 
-    
-
     handleItemClick = (e, {name}) => {
         this.setState({activeItem: name});
         if (this.props.openMobileMenu) { 
@@ -43,12 +38,10 @@ class SideMenu extends Component {
     }
     
     componentWillUnmount() {
-        // important
         document.removeEventListener('click', this.handleClickOutside);
     }
 
     handleClickOutside(event) {
-        //console.log('(this.wrapperRef', this.wrapperRef );
         let winWidth = $( window ).width(); 
         if (winWidth >= 979) { return; }
         if (!this.props.openMobileMenu) { return; }
