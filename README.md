@@ -1,30 +1,29 @@
-# React Admin Dashboard
+# DEMO React Admin
 Admin Dashboard build with ReactJs and React Semantic UI. Which enables jump starting a new
 project with a prepared layout and React Semantic UI provides access to many useful [components](https://react.semantic-ui.com/).
 
 ## Installing / Getting started
 
 ```shell
-git clone https://github.com/AlbionaHoti/react_admin_dashboard.git
-cd react_admin_dashboard
+git clone https://github.com/minhnguyenwp/demo_admin_react.git -b dev
+cd demo_react_admin
 ```
 ## To start the project run
 ```
-npm install
-npm start
-```
-
-## To start storybook run
-```
-npm run storybook
+yarn install
+yarn start
 ```
 
 [Project Demo](https://albionahoti.github.io/react_admin_dashboard/) 
 
-Author: [Albiona Hoti](https://albionahoti.github.io)
+Author: [Ming Nguyen](https://github.com/minhnguyenwp)
 
-![alt text](https://i.imgur.com/rTXO96K.png)
+![alt text](http://wizardev.info/demo_react/dashb_1.png)
+![alt text](http://wizardev.info/demo_react/dashb_2.png)
+![alt text](http://wizardev.info/demo_react/dashb_3.png)
 
-## Demo Details
+## Mobile UI - Android
+![alt text](http://wizardev.info/demo_react/android.png)
 
-![alt text](https://i.imgur.com/KzYwvL5.png)
+## Mobile UI - iOS
+![alt text](http://wizardev.info/demo_react/ios.png)
