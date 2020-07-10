@@ -16,7 +16,7 @@ yarn install
 yarn start
 ```
 
-[Project Demo](https://albionahoti.github.io/react_admin_dashboard/) 
+[Project Demo](http://wizardev.info/minhnguyenwp/) 
 
 Author: [Ming Nguyen](https://github.com/minhnguyenwp)
 
