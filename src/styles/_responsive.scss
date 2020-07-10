@@ -1,0 +1,103 @@
+/**
+ * RESPONSIVE CSS
+ */
+.ios-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: $grBlue_1;
+    height: 45px;
+    box-shadow: 0 -1px 2px 0px #00000050;
+    .ui.menu {
+        background-color: transparent;
+        border: none;
+        .item {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%;
+
+            align-items: center;
+            justify-content: center;  
+
+            transition: background-color 0.25s  ease-out;
+            &.active {
+                color: #ffffff;
+                background-color: rgba(0,0,0,0.2);
+                .ico {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+/* Tablet Screen - 979px */
+@media (max-width: 979px) {
+    .m__site {
+        .parent {
+            > .side {
+                position: fixed;
+            }
+        }
+        
+      
+        .ui.vertical.menu {
+            width: 0;
+            flex-basis: 0;
+            &.side {   
+                &.open-mb-menu {
+                    width: 14rem;
+                    flex-basis: 14rem;
+                    &.small-side {
+                        width: 14rem;
+                        flex-basis: 14rem;
+                    }
+                }
+                &.small-side {
+                    width: 0;
+                    flex-basis: 0;
+                    .menu-item__txt {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        
+        .mcontent{ 
+            width: 100%;
+            &.small-content {
+                width: 100%;
+            }
+        }
+    }
+
+    .ui.grid>.stackable.stackable.row>.column, 
+    .ui.stackable.grid>.column.grid>.column, 
+    .ui.stackable.grid>.column.row>.column, 
+    .ui.stackable.grid>.column:not(.row), 
+    .ui.stackable.grid>.row>.column, 
+    .ui.stackable.grid>.row>.wide.column, 
+    .ui.stackable.grid>.wide.column {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mb-30 {
+        margin-bottom: 0px;
+    }
+    .main-content .page-content-wp .page-content__ct {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-space-menu-item {
+        width: auto;
+    }
+}
+

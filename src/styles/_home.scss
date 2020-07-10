@@ -1,0 +1,60 @@
+/** 
+ * HOME PAGE
+ */
+.card {
+    &.num-card {
+        color: #fff;
+        background: #1f1498;
+        background: linear-gradient(45deg,#321fdb,#1f1498);
+        border-color: #1f1498;
+        position: relative;
+        min-height: 150px;
+        &.num-card__dblue {
+            background: #1f1498;
+            background: linear-gradient(45deg,#321fdb,#1f1498);
+            border-color: #1f1498;
+        }
+        &.num-card__lblue {
+            background: #2982cc;
+            background: linear-gradient(45deg,#39f,#2982cc);
+            border-color: #2982cc;
+        }
+        &.num-card__yellow {
+            background: #f6960b;
+            background: linear-gradient(45deg,#f9b115,#f6960b);
+            border-color: #f6960b;
+        }
+        &.num-card__orange {
+            background: #d93737;
+            background: linear-gradient(45deg,#e55353,#d93737);
+            border-color: #d93737;
+        }
+        .content {
+            color: #fff;
+            >.header {
+                color: #fff;
+                > span.num-card__sign {
+                    font-size: 14px;
+                    vertical-align: top;
+                }
+                &:not(.ui) {
+                    font-size: 1.8rem;
+                    padding-top: 10px;
+                    font-weight: 700;
+                }
+                +.description {
+                    color: rgba(255, 255, 255, 0.7);
+                    padding-right: 60px;
+                }
+            }
+        }
+
+        .num-card__img {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 60px;
+            opacity: 0.3;
+        }        
+    }
+}

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Rubik', arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    background-color: $bg;
+    .ui.menu {
+        font-family: 'Rubik', arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    h1, h2, h3, h4, h5 {
+        font-family: 'Rubik', arial, sans-serif;
+    }
+}
+
+.m__site {
+    .side {
+        transition: width 0.3s;
+        width: 14em;
+        overflow: hidden;
+        padding-top: var(--top-menu-height);
+        z-index: 99;
+        &.small-side.ui.vertical.menu  {
+            width: 4em;
+            flex-basis: 4em;
+            .menu-item__txt {
+                display: none;
+            }
+        }
+    }
+}
+
+.m__site {
+    .ui.vertical.menu {
+        background-color: $grBlue_2;
+        width: 14rem;
+    }
+}
+
+.parent {
+    display: flex;
+}
+
+.mcontent {
+    position: absolute;
+    right: 0;
+    transition: all 0.3s;
+    width: calc(100% - 14em);
+    &.small-content {
+        width: calc(100% - 4em);
+    }
+}
+
+.main-content {
+    grid-area: maincontent;
+    .page-content-wp {
+        .page-content__ct {
+            padding: 20px;
+        }
+    }
+}
+
+.m__site {
+    .ui.segment {
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;    
+        border: none;
+    }
+    .wt-box {
+        background-color: #fff;
+        box-shadow: 0 1px 4px 0 rgba(34,36,38,.15); 
+       
+    }
+}
+.wt-box {
+    .breadcrumb {
+        background-color: transparent;
+        padding: 15px 20px;
+    }
+    
+}
+
+.m__site {
+    .ui.breadcrumb a {
+        color: $grBlue_2;
+        &:hover {
+            color: $grBlue_1;
+        }
+    }
+}
+.page-content__ct {
+    .ui.grid {
+        margin: 0;
+        display: block; 
+        > .row {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-left: -1rem;
+            margin-right: -1rem;
+            display: flex; 
+            width: auto !important;
+            > .column {
+                display: flex; 
+                //align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.grid.m__site {
+    width: 100%;
+    display: grid;
+    grid: var(--top-menu-height) / 1fr;
+    grid-template-areas:  "menu"
+                          "maincontent";
+    min-height: 100vh;
+}
+
+/* SPACING */
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-20 {
+    margin-right: 15px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}

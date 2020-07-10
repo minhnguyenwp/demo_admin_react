@@ -1,0 +1,145 @@
+/**
+ * HEADER CSS
+ */ 
+.page-header__top {
+    &.menu {
+        > .ui {
+            &.top {
+                background: $grBlue_1;
+                box-shadow: 0 1px 1px 0px #00000050;
+            }
+        }
+    }
+}
+
+.logo__txt {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: $white;
+}
+
+.side-menu__left, .page-header__top {
+    .ui.menu  {
+        a.item:hover {
+            background: none;
+            color: $white;
+        }
+    }
+}
+.ui.menu  {
+    .call-sidebar-menu {
+        font-size: 16px;
+        padding-left: 4px;
+        padding-right: 4px;
+        color: $white;
+    }
+}
+
+.c-icon {
+    display: inline-block;
+    color: #dddddd;
+    text-align: center;
+    
+}
+
+.c-icon:not(.c-icon-c-s):not(.c-icon-custom-size) {
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+}
+
+/* Label Floating Number */
+.page-header__top {
+    .ui.menu {
+        .item.logo-space-menu-item:before {
+            display: none;
+        }
+    }
+    .ui.mini.label {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 2px  5px !important;
+        height: 18px;
+        line-height: 18px;
+    }
+}
+a.menu__item {
+    display: block;
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+.profile__link {
+    font-size: 0.9rem;
+    color: #eeeeee;
+    &:active, &:visited, &:focus{
+        color: #eeeeee;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: #eeeeee;
+    }
+}
+
+/* LEFT SIDE */
+.ico {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-size: 1rem;
+    color: #ffffff;
+    &.ico-medium {
+        width: 20px;
+        height: 20px;
+    }    
+    &.grey {
+        color: #999999;
+    }
+}
+
+
+
+
+.side-menu__left {
+    &.ui.vertical.menu {
+        a.item {
+            position: relative;
+            .ico {
+                transition: color 0.2s ease-out;
+            }
+            .menu-item__txt {
+                color: #ddd;
+                transition: all 0.1s ease-out;
+            }
+
+            .label {
+                position: absolute;
+                top: 14px;
+                right: 10px;
+            }
+
+            &:hover {
+                background-color: rgba(0,0,0,.1);
+                .ico {
+                    color: #fff;
+                }
+                .menu-item__txt {
+                    color: #fff;
+                }
+            }
+        }
+
+        .active.item,
+        .active.item:hover, 
+        .active.item:hover {
+            background-color: rgba(0,0,0,.2);
+            .ico {
+                color: #fff;
+            }
+            .menu-item__txt {
+                color: #fff;
+            }
+        }
+    }
+}
