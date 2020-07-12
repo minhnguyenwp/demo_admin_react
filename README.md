@@ -20,12 +20,12 @@ yarn start
 
 Author: [Ming Nguyen](https://github.com/minhnguyenwp)
 
-![alt text](http://wizardev.info/demo_react/images/dashb_1.png)
-![alt text](http://wizardev.info/demo_react/images/dashb_2.png)
-![alt text](http://wizardev.info/demo_react/images/dashb_3.png)
+![alt text](http://wizardev.info/minhnguyenwp/images/dashb_1.png)
+![alt text](http://wizardev.info/minhnguyenwp/images/dashb_2.png)
+![alt text](http://wizardev.info/minhnguyenwp/images/dashb_3.png)
 
 ## Mobile UI - Android
-![alt text](http://wizardev.info/demo_react/images/android.png)
+![alt text](http://wizardev.info/minhnguyenwp/images/android.png)
 
 ## Mobile UI - iOS
-![alt text](http://wizardev.info/demo_react/images/ios.png)
+![alt text](http://wizardev.info/minhnguyenwp/images/ios.png)
